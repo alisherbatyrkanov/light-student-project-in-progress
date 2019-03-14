@@ -26,13 +26,17 @@ class ViewController: UIViewController {
 //            } else {
 //                view.backgroundColor = .black
 //            }
-            
-    }
     
+    }
+
        override func viewDidLoad() {
         super.viewDidLoad()
         
         updateUI()
+    }
+    
+     override var prefersStatusBarHidden: Bool {
+        return true
     }
 
 
